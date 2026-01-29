@@ -10,3 +10,12 @@
 :root {
     --tamano: 200px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(circle, #ff0033 0%, #252525 100%);
+}
