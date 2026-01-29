@@ -17,13 +17,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: radial-gradient(circle, #ff0033 0%, #252525 100%);
+    background-image: radial-gradient(circle, #F7A62D 0%, #2DA2F7 100%);
 }
 
 footer {
     position: fixed;
+    width: 100%;
+    text-align: center;
     bottom: 0;
     padding: 1rem;
+    background-color: #5381A2;
     color: #fff;
 }
 
@@ -31,7 +34,7 @@ footer {
     width: var(--tamano);
     height: var(--tamano);
 
-    margin-bottom: 20px;
+    margin-bottom: 6rem;
 }
 
 .dado {
@@ -48,7 +51,7 @@ footer {
     width: var(--tamano);
     height: var(--tamano);
     background-color: #6afb2b;
-    color: #000;
+    color: #5381A2;
     border: 1px solid;
     
     display: flex;

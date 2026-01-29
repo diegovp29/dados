@@ -31,6 +31,6 @@ function tirarDado() {
 
             dado.style.transition = 'transform 1.5s cubic-bezier(0.25, 1, 0.25, 1)';
             dado.style.transform = rotations[randomFace];
-        }, 1000);
+        }, 1500);
     });
 }
